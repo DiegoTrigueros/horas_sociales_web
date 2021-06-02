@@ -7,20 +7,19 @@ export default function CardBarChart() {
       type: "bar",
       data: {
         labels: [
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
+          "Enero",
+          "Febrero",
+          "Marzo",
+          "Abril",
+          "Mayo",
+          "Junio"
         ],
         datasets: [
           {
             label: new Date().getFullYear(),
             backgroundColor: "#ed64a6",
             borderColor: "#ed64a6",
-            data: [30, 78, 56, 34, 100, 45, 13],
+            data: [0, 10, 15, 17, 23, 25, 33],
             fill: false,
             barThickness: 8,
           },
@@ -29,7 +28,7 @@ export default function CardBarChart() {
             fill: false,
             backgroundColor: "#4c51bf",
             borderColor: "#4c51bf",
-            data: [27, 68, 86, 74, 10, 4, 87],
+            data: [65, 78, 66, 44, 56, 67],
             barThickness: 8,
           },
         ],
@@ -105,10 +104,10 @@ export default function CardBarChart() {
           <div className="flex flex-wrap items-center">
             <div className="relative w-full max-w-full flex-grow flex-1">
               <h6 className="uppercase text-gray-500 mb-1 text-xs font-semibold">
-                Performance
+                RENDIMIENTO
               </h6>
               <h2 className="text-gray-800 text-xl font-semibold">
-                Total orders
+                Total de viajes
               </h2>
             </div>
           </div>
